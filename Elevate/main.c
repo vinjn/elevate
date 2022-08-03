@@ -134,7 +134,7 @@ int __cdecl wmain(
 	COMMAND_LINE_ARGS Args;
 	INT Index;
 	BOOL FlagsRead = FALSE;
-	WCHAR CommandLineBuffer[ 260 ] = { 0 };
+	WCHAR CommandLineBuffer[ 1000 ] = { 0 };
 
 	ZeroMemory( &OsVer, sizeof( OSVERSIONINFO ) );
 	OsVer.dwOSVersionInfoSize = sizeof( OSVERSIONINFO );
